@@ -20,5 +20,5 @@
             "needsPersistentCheck": true
         }
     ],
-    "fullscreenBtnSelector": "#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right > div.ytp-fullscreen-quick-actions > yt-player-quick-action-buttons > toggle-button-view-model"
+    "fullscreenBtnSelector": "#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right > div.ytp-fullscreen-quick-actions > yt-player-quick-action-buttons > toggle-button-view-model > button-view-model > button"
 }
