@@ -2,23 +2,22 @@
     "guideVideoId": "tUHDBgXE420",
     "mountPoints": [
         {
-      "selector": "ytd-watch-flexy #secondary.ytd-watch-flexy",
-      "name": "sidebar",
-      "mountAt": "start",
-      "needsPersistentCheck": true
-    },
-    {
-      "selector": "[shorts-panel] > #content",
-      "name": "shorts",
-      "mountAt": "start",
-      "needsPersistentCheck": true
-    },
-    {
-      "selector":
-        "[is-fullscreen] [panel-target-id='engagement-panel-comments-section'] #contents",
-      "name": "fullscreen",
-      "mountAt": "start",
-      "needsPersistentCheck": true
-    }
+            "selector": "ytd-watch-flexy #secondary.ytd-watch-flexy",
+            "name": "sidebar",
+            "mountAt": "start",
+            "needsPersistentCheck": true
+        },
+        {
+            "selector": "[shorts-panel] > #content",
+            "name": "shorts",
+            "mountAt": "start",
+            "needsPersistentCheck": true
+        },
+        {
+            "selector": "[is-fullscreen] [panel-target-id='engagement-panel-comments-section'] #contents",
+            "name": "fullscreen",
+            "mountAt": "start",
+            "needsPersistentCheck": true
+        }
     ]
 }
