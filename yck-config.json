@@ -24,5 +24,11 @@
     "reviewLinks": {
         "firefox": "https://addons.mozilla.org/en-US/firefox/addon/youtube-comment-kit/",
         "chrome": "https://chromewebstore.google.com/detail/youtube-comment-kit/pfgcilgpjedghceoheogpibogofhlbke/reviews"
-    }
+    },
+    "heatmapMountPoint": {
+        "selector": ".ytp-progress-bar",
+        "name": "heatmap",
+        "mountAt": "start",
+        "needsPersistentCheck": true
+  }
 }
