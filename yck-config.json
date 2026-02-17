@@ -1,34 +1,42 @@
 {
-    "guideVideoId": "tUHDBgXE420",
-    "mountPoints": [
-        {
-            "selector": "ytd-watch-flexy #secondary.ytd-watch-flexy",
-            "name": "sidebar",
-            "mountAt": "start",
-            "needsPersistentCheck": true
-        },
-        {
-            "selector": "[shorts-panel] > #content",
-            "name": "shorts",
-            "mountAt": "start",
-            "needsPersistentCheck": true
-        },
-        {
-            "selector": "[is-fullscreen] [panel-target-id='engagement-panel-comments-section'] #contents",
-            "name": "fullscreen",
-            "mountAt": "start",
-            "needsPersistentCheck": true
-        }
-    ],
-    "fullscreenBtnSelector": "#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right > div.ytp-fullscreen-quick-actions > yt-player-quick-action-buttons > toggle-button-view-model > button-view-model > button",
-    "reviewLinks": {
-        "firefox": "https://addons.mozilla.org/en-US/firefox/addon/youtube-comment-kit/",
-        "chrome": "https://chromewebstore.google.com/detail/youtube-comment-kit/pfgcilgpjedghceoheogpibogofhlbke/reviews"
+  "guideVideoId": "tUHDBgXE420",
+  "mountPoints": [
+    {
+      "selector": "ytd-watch-flexy #secondary.ytd-watch-flexy",
+      "name": "sidebar",
+      "mountAt": "start",
+      "needsPersistentCheck": true
     },
-    "heatmapMountPoint": {
-        "selector": ".ytp-progress-bar",
-        "name": "heatmap",
-        "mountAt": "start",
-        "needsPersistentCheck": true
-  }
+    {
+      "selector": "[shorts-panel] > #content",
+      "name": "shorts",
+      "mountAt": "start",
+      "needsPersistentCheck": true
+    },
+    {
+      "selector": "[is-fullscreen] [panel-target-id='engagement-panel-comments-section'] #contents",
+      "name": "fullscreen",
+      "mountAt": "start",
+      "needsPersistentCheck": true
+    }
+  ],
+  "fullscreenBtnSelector": "#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right > div.ytp-fullscreen-quick-actions > yt-player-quick-action-buttons > toggle-button-view-model > button-view-model > button",
+  "reviewLinks": {
+    "firefox": "https://addons.mozilla.org/en-US/firefox/addon/youtube-comment-kit/",
+    "chrome": "https://chromewebstore.google.com/detail/youtube-comment-kit/pfgcilgpjedghceoheogpibogofhlbke"
+  },
+  "heatmapMountPoints": [
+    {
+      "selector": ".ytp-progress-bar",
+      "name": "heatmap",
+      "mountAt": "start",
+      "needsPersistentCheck": true
+    },
+    {
+      "selector": "#movie_player > div.ytp-tooltip.ytp-bottom",
+      "name": "heatmap-comment",
+      "mountAt": "start",
+      "needsPersistentCheck": true
+    }
+  ]
 }
