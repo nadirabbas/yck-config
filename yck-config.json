@@ -22,8 +22,8 @@
   ],
   "fullscreenBtnSelector": "#movie_player > div.ytp-overlays-container > div.ytp-overlay-bottom-right > div.ytp-fullscreen-quick-actions > yt-player-quick-action-buttons > toggle-button-view-model > button-view-model > button",
   "reviewLinks": {
-    "firefox": "https://addons.mozilla.org/en-US/firefox/addon/youtube-comment-kit/",
-    "chrome": "https://chromewebstore.google.com/detail/youtube-comment-kit/pfgcilgpjedghceoheogpibogofhlbke"
+    "firefox": "https://addons.mozilla.org/en-US/firefox/addon/youtube-comment-kit/reviews/",
+    "chrome": "https://chromewebstore.google.com/detail/youtube-comment-kit-%E2%80%94-com/pfgcilgpjedghceoheogpibogofhlbke/reviews"
   },
   "heatmapMountPoints": [
     {
