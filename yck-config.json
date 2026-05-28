@@ -2,7 +2,7 @@
   "guideVideoId": "tUHDBgXE420",
   "mountPoints": [
     {
-      "selector": "ytd-watch-flexy #secondary.ytd-watch-flexy",
+      "selector": "#secondary-inner.ytd-watch-flexy",
       "name": "sidebar",
       "mountAt": "start",
       "needsPersistentCheck": true
